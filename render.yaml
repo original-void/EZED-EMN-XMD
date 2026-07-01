@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: ezed-emn-xmd
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
